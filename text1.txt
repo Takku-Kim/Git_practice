@@ -1,1 +1,14 @@
 The first txt document.
+
+
+commend
+1. touch text1.txt
+2. git status
+3. ls
+4. git add text1.txt
+5. clear
+
+6. git commit
+6-1. shift+i
+6-2. est
+6-3. :wq
