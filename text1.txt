@@ -2,15 +2,24 @@ The first txt document.
 
 Stage1
 commend
-1. touch text1.txt
-2. git status
-3. ls
-4. git add text1.txt / git add .
+1. touch text1.txt // 파일 생성
+2. git status // 상태보기
+3. ls // 리스트 보기
+4. git add text1.txt / git add . // git 추가
 5. clear
+6. git log
+6-1. git log -p, -1, --oneline
 
-6. git commit
-6-1. shift+i
-6-2. est
-6-3. :wq
+7. git commit /git commit -m "" // commit 생성 또는 메세지 생성
+7-1. shift+i
+7-2. esc
+7-3. :wq
+
+8. git init
+9. git config --global user.name ""
+10. git config --global user.email ""
 
 Stage2
+1. touch .gitignore
+2. nano .gitignore -> secret.txt -> ctrl + x -> y
+3. git checkout commit_hash // 특정 시점으로 파일을 돌림
