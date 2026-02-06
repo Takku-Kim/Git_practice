@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(git restore:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Transformer regression model for tabular data\n\nImplement TabTransformer approach that treats each feature as a token,\nusing feature embedding, positional embedding, and Transformer encoder\nfor regression on the same dataset as the MLP model.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)",
+      "Bash(git push)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
